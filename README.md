@@ -139,7 +139,7 @@ CONTROLLED_TLS_ID  = "TL1"         # Traffic light ID in your network
 
 ### Plotting Results
 <p align="center">
-<img src="expected plots/  reward.png" align="center" width="60%"/>
+<img src="expected plots/reward plots.png" align="center" width="60%"/>
 </p>
 
 ---
