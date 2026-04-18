@@ -193,7 +193,7 @@ while not done:
 The reinforcement learning framework trains multiple policies using different reward weight combinations to explore trade-offs between competing objectives: waiting time, queue length, and safety (TTC conflicts).
 
 <p align="center">
-<img src="outputs/result.png" align="center" width="50%"/>
+<img src="expected plots/3D pareto.png" align="center" width="60%"/>
 </p>
 
 ---
