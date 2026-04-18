@@ -1,4 +1,3 @@
-<img src="expected plots/workZone.png" align="right" width="30%"/>
 
 
 [![DOI](https://zenodo.org/badge/161216111.svg)](https://zenodo.org/doi/10.5281/zenodo.10869789)
@@ -24,8 +23,8 @@ Goals of this repository:
 - **Evaluate and compare multiple DQN Pareto-optimal agents against the SUMO default controller**
 - **Multi-objective analysis: efficiency (waiting, queue, speed, throughput) vs. safety (TTC conflicts)**
 
-The main class is [SumoEnvironment](https://github.com/LucasAlegre/sumo-rl/blob/main/sumo_rl/environment/env.py).
-If instantiated with parameter `single_agent=True`, it behaves like a regular [Gymnasium Env](https://github.com/Farama-Foundation/Gymnasium).
+<img src="expected plots/workZone.png" align="center" width="70%"/>
+
 <!-- end intro -->
 
 ---
