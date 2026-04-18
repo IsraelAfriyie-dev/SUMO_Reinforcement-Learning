@@ -108,10 +108,10 @@ You can define your own observation by implementing a class that inherits from [
 The reward signal combines multiple competing objectives relevant to work-zone traffic control through weighted scalarization:
 
 <p align="center">
-<img src="docs/_static/reward.png" align="center" width="25%"/>
+<img src="reward.png" align="center" width="60%"/>
 </p>
 
-That is, the reward reflects how much the total waiting time across all approaching vehicles changed relative to the previous timestep.
+That is, the reward reflects metrics for accumulated waiting time, queued vehicle count, average speed, traffic pressure, safety conflicts (time-to-collision), and work-zone queue spillback, respectively.
 
 You can choose a different reward function (see the ones implemented in [TrafficSignal](https://github.com/LucasAlegre/sumo-rl/blob/main/sumo_rl/environment/traffic_signal.py)) via the `reward_fn` parameter, or define your own:
 
