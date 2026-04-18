@@ -127,6 +127,10 @@ The script [`compare_models.py`](experiments/compare_models.py) evaluates a set 
 | **Throughput** | Number of vehicles that successfully completed their trip |
 | **TTC Conflicts** | Number of vehicles with a Time-To-Collision below 1.5 seconds (safety proxy) |
 
+<p align="center">
+<img src="expected plots/result.png" align="center" width="50%"/>
+</p>
+
 
 ### Configuration
 
